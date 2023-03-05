@@ -3,7 +3,7 @@ cat <<EOF
 
 Run "m help" for help with the build system itself.
 
-Invoke ". build/envsetup.sh" from your shell to add the following functions to your environment:
+Invoke "source build/envsetup.sh" from your shell to add the following functions to your environment:
 - lunch:      lunch <product_name>-<build_variant>
               Selects <product_name> as the product to build, and <build_variant> as the variant to
               build, and stores those selections in the environment to be read by subsequent
